@@ -10,6 +10,11 @@
 *::after {
   box-sizing: border-box;
 }
+/* html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; */
+
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
@@ -53,15 +58,6 @@ a {
 	padding-right: 10px;
   text-decoration: none !important;
   }
-
-/* .container1 {
-    width: 100%;
-  	max-width: 1200px;
-  	background-color: white;
-    margin: 50px auto;
-    overflow: hidden;
-    padding: 40px 80px;
-} */
 
 .background-img{
 	background: no-repeat center center fixed;
@@ -114,4 +110,19 @@ a {
 
 .row1 {
   display: flex;
+}
+@media (min-width: 768px) {
+    .row1 {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .row1 {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .row1 {
+        width: 1170px;
+    }
 }
